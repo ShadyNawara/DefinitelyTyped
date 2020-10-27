@@ -1059,7 +1059,7 @@ You can pass an optional additional property with sorter, sorterParams that shou
         /** Validators are used to ensure that any user input into your editable cells matches your requirements.
 
     Validators can be applied by using the validator property in a columns definition object (see Define Columns for more details). */
-        validator?: StandardValidatorType | StandardValidatorType[] | Validator | Validator[] | string;
+        validator?: StandardValidatorType | StandardValidatorType[] | Validator | Validator[] | string | string[];
 
         /** Mutators are used to alter data as it is parsed into Tabulator. For example if you wanted to convert a numeric column into a boolean based on its value, before the data is used to build the table.
 
